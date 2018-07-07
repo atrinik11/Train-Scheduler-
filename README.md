@@ -7,7 +7,7 @@ Technologies used for the app:
 
 HTML5
 CSS
-Bootstrap.
+Bootstrap
 JavaScript
 jQuery.
 Firebase API for database hosting
@@ -18,9 +18,9 @@ Instructions:
           Enter the Destination.
           Enter First Train Time -- in military time.
           Enter the Frequency -- in minutes.
-          Then the code this app will calculate how many more minutes are left for the train to arrive, this will be relative to the current time.
+          Then the code in the app will calculate using moment.js, how many more minutes are left and the time for the train to arrive, this will be relative to the current time.
 
-Maintained By: Reena Mahapatra.
+Maintained By : Reena Mahapatra.
 
-Resource: Class materials, online videos, online study, help from the instructor and the TA's.
+Resources : Class materials, online videos, online study, help from the instructor and the TA's.
    

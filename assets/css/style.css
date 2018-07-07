@@ -6,7 +6,9 @@
 .jumbotron {
     position : relative;
     background : url("../images/night-train.jpg");
-    object-fit: cover;
+    background-position: 0% 55%;
+    background-size: cover;
+    background-repeat: no-repeat;
     font-family: 'Orbitron', sans-serif;
     color : gold;
     letter-spacing: .45em;
@@ -15,15 +17,18 @@
 
 #portfolio{
     position: absolute;
-    top : 20px;
-    right : 300px;
+    top : 10px;
+    left : 40px;
     border : none;
     background : transparent;
-    color : gold;
-    font-size: 20px;
+    color : hsl(51, 91%, 54%);
+    font-size: 25px;
+    font-weight: bold;
+    padding: 5px 5px;
+    cursor: pointer;
 }
 
-#portfolio.a:hover {
+a {
     color : gold;
     text-decoration: none;    
 }
@@ -42,7 +47,7 @@
     background-color : lightgrey; 
 }
 .tableBody{
-    height : 294px;
+    height : 100px;
     overflow : auto;
 }
 
