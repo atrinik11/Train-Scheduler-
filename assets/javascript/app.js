@@ -26,12 +26,18 @@ $(document).ready(function(){
         event.preventDefault();
         if ($("#train-input").val(),$("#destination-input").val(),$("#time-input").val(), $("#frequency-input").val() === "") {
             alert("All input fields are mandotary. Enter data in all fields and click the submit button.");
-        } else {         
+
+        } else if ($("#time-input").val() > 24) {
+            //An alert is displayed when the user enters a time more than 24.........................
+            alert("Pls enter the 24 hr time format and time cannot be greater than 24.");
+        } else {
+                 
             //Declaring the variables that will hold the user input values..............................
             trainName = $("#train-input").val().trim();
             trainDestination = $("#destination-input").val().trim();
             trainTime = $("#time-input").val().trim();
             trainFrequency = $("#frequency-input").val().trim(); 
+
 
             //Console log to see if the variables are holding the user input values........................
             console.log("Input Values");
