@@ -23,6 +23,7 @@
     background : transparent;
     color : hsl(51, 91%, 54%);
     font-size: 25px;
+    letter-spacing: .35em;
     font-weight: bold;
     padding: 5px 5px;
     cursor: pointer;

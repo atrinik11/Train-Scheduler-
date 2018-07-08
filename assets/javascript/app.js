@@ -24,7 +24,7 @@ $(document).ready(function(){
     //Capturing the add train button click.................
     $("#add-train").on("click", function(event){
         event.preventDefault();
-        if ($("#train-input, #destination-input, #time-input, #frequency-input").val() === "") {
+        if ($("#train-input").val(),$("#destination-input").val(),$("#time-input").val(), $("#frequency-input").val() === "") {
             alert("All input fields are mandotary. Enter data in all fields and click the submit button.");
         } else {         
             //Declaring the variables that will hold the user input values..............................
